@@ -33,12 +33,6 @@ Sample Form Properties View
 <br />
 <br />
 
-Sample Form Properties View
-
-<img src="https://github.com/CS06800/eFormsDark/blob/main/Images/FormProperties.png">
-<br />
-<br />
-
 Sample Form statistics View
 
 <img src="https://github.com/CS06800/eFormsDark/blob/main/Images/FormStats.png">
