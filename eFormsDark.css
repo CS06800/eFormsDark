@@ -199,8 +199,9 @@ i {
 }
 */
 i[class="far fa-check fa-1x cstate-green"]{color:green;}/* keep check marks green */
-i[class="far fa-check fa-2x cstate-green"]{color:green;}/* keep check marks green */
-i[class="fad fa-lock-alt fa-1x cstate-green"]{color:lightgreen;}/* keep lock icons green */
+i[class="far fa-check fa-1x cstate-green"]{color:green;}/* keep check marks green */
+i[class="far fa-check fa-2x cstate-green"]{color:unset;}/* keep check marks white */
+i[class=" fad fa-lock-alt fa-1x cstate-green"]{color:lightgreen;}/* keep lock icons green */
 i[class="fad fa-search fa-3x cstate-green"]{color:unset;}/* keep search icon white */
 i[class="fad fa-users fa-3x cstate-green"]{color:unset;}/* ignore users icon*/
 i[class="fad fa-calendar-alt fa-3x cstate-green"]{color:unset;}/* ignore calendar icon*/
