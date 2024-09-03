@@ -309,7 +309,7 @@ input, textarea, select {
 .button-action:hover{color:#327fff!important;}
     
     
-.information-box{background:#007bff;}
+.information-box{background:#010101;}
 /* a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;} */
 }
 
@@ -391,7 +391,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
     }
     
     a#ContentPlaceHolder1_hlPendingForms{
-        color:#0004ff!important;
+        color:#010101!important;
     }
     
 .white-box:hover {
@@ -401,7 +401,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
     }
 
     
-     .information-box{background:#007bff;}
+     .information-box{background:#010101;}
   a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;} 
 }
 
@@ -415,19 +415,19 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 #cssmenu-form li:hover a {
   display: block;
   background:unset;
-  border: 1px solid #007bff;
+  border: 1px solid #010101;
   text-decoration: none;
   color: #333333;
     }
 
 /* Style the active list item */
 #cssmenu-form li.active a span {
-    background-color: #007bff; /* Background color for active item */
+    background-color: #010101; /* Background color for active item */
     color: #ffffff; /* Text color for active item */
     padding: 10px 15px; /* Add padding */
     display: block; /* Ensure padding affects the whole block */
     border-radius: 5px; /* Optional: Round corners */
-    border: 1px solid #007bff;
+    border: 1px solid #010101;
     font-weight: bold; /* Optional: Make text bold */
 }
 
@@ -454,7 +454,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 .button-cancel{background-color: #1F2023;}
 .button-cancel:hover{background:#333!important;}
 
-.information-box{background:#007bff;}
+.information-box{background:#010101;}
 /*a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;}*/
 
     
@@ -463,7 +463,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/reviewers_summary.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/processors_summary.aspx"){
     
-    .information-box{background:#007bff;}
+    .information-box{background:#010101;}
    /* a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;}*/
 }
 
@@ -477,12 +477,12 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 #ContentPlaceHolder1_cmdUndoChanges:hover{color:#6c6d6c!important;}
 #ContentPlaceHolder1_cmdClose1:hover{color:#ff8000!important;}
 #ContentPlaceHolder1_cmdClose:hover{color:#ff8000!important;}
-#ContentPlaceHolder1_cmdPublish1:hover{color:#007bff!important}
+#ContentPlaceHolder1_cmdPublish1:hover{color:#010101!important}
 
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_processors.aspx"),url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/order_elements.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_reviewers.aspx"){
     
-    .information-box{background:#007bff;}
+    .information-box{background:#010101;}
     
 }
