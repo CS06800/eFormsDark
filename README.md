@@ -1,9 +1,14 @@
-# eFormsDark
+# Dark Theme - Cincinnati State eForms app
 
-A Beautiful Dark version of Cincinnati State eForms style sheet. 
+A Beautiful Dark version of Cincinnati State eForms style sheet.
 
-You can Use the plugin called Stylus to activate it, which can be found here depending on your browser:
+You can Use the plug-in called Stylus to activate it, which can be found here depending on your browser
+<br />
 
+> [!important]  
+> #### This is not Supported by Cincinnati State. This is done as a courtesy and you support it if something happens
+
+<br />
 Default Landing Page View
 
 <img src="https://github.com/CS06800/eFormsDark/blob/main/Images/Default.png">
