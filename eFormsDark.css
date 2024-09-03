@@ -445,7 +445,47 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 #cssmenu-form a {
     text-decoration: none;
 }
-  
+
+/* second sub-menu */
+
+#cssmenu-form2 li.active a{background:unset;
+    border: 1px solid;
+    }
+
+#cssmenu-form2 li:hover a {
+  display: block;
+  background:unset;
+  border: 1px solid #007bff;
+  text-decoration: none;
+  color: #333333;
+    }
+
+/* Style the active list item */
+#cssmenu-form2 li.active a span {
+    background-color: #007bff; /* Background color for active item */
+    color: #ffffff; /* Text color for active item */
+    padding: 10px 15px; /* Add padding */
+    display: block; /* Ensure padding affects the whole block */
+    border-radius: 5px; /* Optional: Round corners */
+    border: 1px solid #007bff;
+    font-weight: bold; /* Optional: Make text bold */
+}
+
+/* Style all other list items */
+#cssmenu-form2 li a span {
+    background-color: #0b77e2; /* Background color for inactive items */
+    color: #333333; /* Text color for inactive items */
+    padding: 10px 15px; /* Add padding */
+    display: block; /* Ensure padding affects the whole block */
+    border-radius: 5px; /* Optional: Round corners */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Ensure links do not have underlines */
+#cssmenu-form2 a {
+    text-decoration: none;
+}
+    
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/owner_forms.aspx"){
