@@ -1,4 +1,4 @@
-# Dark Theme - Cincinnati State eForms app
+# Dark Theme - Cincinnati State eForms Web app
 
 A Beautiful Dark version of Cincinnati State eForms style sheet.
 
