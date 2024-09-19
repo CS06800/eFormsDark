@@ -6,7 +6,7 @@ You can Use the plug-in called Stylus to activate it, which can be found here de
 <br />
 
 > [!important]  
-> #### This is not Supported by Cincinnati State. This is done as a courtesy and you support it if something happens
+> #### This is not Supported by Cincinnati State. This is done as a courtesy and **you** support it if something happens
 
 <br />
 Default Landing Page View
