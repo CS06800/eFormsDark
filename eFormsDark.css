@@ -324,9 +324,9 @@ input, textarea, select {
 div[class="fake-textbox"]{color:#333!important;}
 }
 i[class="fad fa-history fa-3x cstate-green"]{color:unset;}
-#History-Date_Time_Published{background-color: rgb(75, 94, 81); color:#d3d3d3;}
-#History-Date_Time_UnPublished{background-color: #676054;; color:#d3d3d3}
-.collapsible-content{background-color:#444;}
+#History-Date_Time_Published{background-color: #4b5e51!important; color:#d3d3d3!important;}
+#History-Date_Time_UnPublished{background-color: #676054!important; color:#d3d3d3!important;}
+.collapsible-content{background-color:#444!important;}
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/submitted_forms3"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/view_form.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/submitted_forms.aspx") {
 B ,i{color: #d3d3d3;}/*comments in process o review comments */
 body, select, input, button, textarea{color: #d3d3d3;}
