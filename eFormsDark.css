@@ -1,13 +1,13 @@
 /* ==UserStyle==
-@name           eFroms Dark
+@name           eForms Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.1.0
 @description    A new userstyle
 @author         Carmine
 ==/UserStyle== */
 
 
-@-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms"), url-prefix("https://webtst2.cincinnatistate.edu/eforms"),url-prefix("https://web3.cincinnatistate.edu/eForms") {
+@-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms"), url-prefix("https://web3.cincinnatistate.edu/eForms") {
 #cssmenu > ul > li > a:hover {
     color: #20c4dd!important;
 }
@@ -59,7 +59,7 @@
 
 #header {
     border: unset;
-    background-color:#333333
+    background-color:#333333;
 }
 
 #page-message {
@@ -175,7 +175,7 @@ body {
 }
 
 div[class="none-found section information-box"] {
-    color: #1F2023;
+    color: #ffffff;
 }
 
 h2,
@@ -209,6 +209,10 @@ i[class="fad fa-pencil-alt fa-1x cstate-green"]{color:unset;}/*ignore pencil ico
 i[class="fas fa-pencil-alt fa-1x cstate-green"]{color:unset;}/*ignore pencil icon*/
 i[class="fas fa-star fa-1x cstate-green"]{color:unset;}
 i[class="fad fa-user-cog fa-3x cstate-green"]{color:unset;}
+    
+    .info-alert {
+        color:unset;
+    }
 
 span[style="color: Black"],
 .standard-fields-title span {
@@ -275,30 +279,44 @@ input, textarea, select {
 /*.button-cancel{background-color: #000;}*/
 /*.button-cancel:hover{background:#333!important;}*/
 .button-cancel:hover{color:#327fff!important;}
-.cstate-green{color:unset;}
+.cstate-green{color:unset!important;}
 div[class="fake-textbox"]{color:#333!important;}
-}
+
 #cssmenu-form ul, #cssmenu-form2 ul{background:#333!important;}
 #navigate-elements{border: 1px solid #333;}
 #cssmenu-form li:hover{background: #555;}
+
+#cssmenu-left-nav ul ul a:focus {
+	background-color: #0620f0;
+	padding-left: 5px;
+}
+
+a:focus {
+	background-color: #0620f0;
+	padding: 3px;
+}
+}
+
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/owner_forms_edit.aspx") {
 input, textarea, select {
   background: #e4e4e4 !important;
   color: #1F2023;
 }
 .button-action:hover{color:#327fff!important;}
-}
+
 .module-red:hover {
 	border: 0.05em solid #d3d3d3 !important;
 }
+}
+
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/view_form.aspx") {
 div[class="item left"], div[class="left"]{color: #d3d3d3;}
 #review-action {margin-bottom:unset;}
 .button-cancel{color:#333;}
 span[style="float: right;"]{margin-bottom:.2em;}
-}
+
 .module-red .header-red{border-bottom:unset;
-background-color:unset;
+background-color:unset;}
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_search.aspx") {
@@ -314,7 +332,7 @@ input, textarea, select {
 .button-action:hover{color:#327fff!important;}
     
     
-.information-box{background:#007bff;}
+.information-box{background:#0857A6; color:#ffffff;}
 /* a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;} */
 }
 
@@ -322,22 +340,24 @@ input, textarea, select {
 .module .header{background-color: #52575c !important;}
 .module .header{color:#d3d3d3;}
 div[class="fake-textbox"]{color:#333!important;}
-}
+
 i[class="fad fa-history fa-3x cstate-green"]{color:unset;}
 #History-Date_Time_Published{background-color: #4b5e51!important; color:#d3d3d3!important;}
 #History-Date_Time_UnPublished{background-color: #676054!important; color:#d3d3d3!important;}
+
 .collapsible-content{background-color:#444!important;}
+}
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/submitted_forms3"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/view_form.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/submitted_forms.aspx") {
 B ,i{color: #d3d3d3;}/*comments in process o review comments */
 body, select, input, button, textarea{color: #d3d3d3;}
 div[class="section-none"]{color: #d3d3d3!important;}
-}
 
-.module-red .image_and_content_box{background:unset}
+
+.module-red .image_and_content_box{background:unset;}
 
 .module-red:hover {
     border: 0.05em solid red;}
-
+}
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/copy_form.aspx") {
 div[class="item"]{color: #d3d3d3!important;}
 div[class="item"] div{margin-bottom:.5em;}
@@ -357,7 +377,7 @@ body{color:#d3d3d3;}
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/admin_alias_login.aspx") {
 #module2{margin-bottom:1em;}
 
-    option[value]{background:#424242}
+    option[value]{background:#424242;}
 
 .button-action{background-color: #1F2023;}
 
@@ -367,13 +387,16 @@ body{color:#d3d3d3;}
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/publish.aspx") {
 .color{color:Yellow;}
 .button-action:hover{color:red;}
-}
 
-@-moz-document url("https://web3.cincinnatistate.edu/eforms/admin/data_retention.aspx") {
+.information-box {
+	background-color: #018F01;
+    }	
+}
+@-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/data_retention.aspx") {
 .ColumnHeader:hover{background:#333!important;}
 }
 
-@-moz-document url("https://web3.cincinnatistate.edu/eforms/admin/form_elements_adv.aspx") {
+@-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements_adv.aspx") {
 .ColumnHeader:hover{background:#333!important;}
 }
 
@@ -384,7 +407,7 @@ body{color:#d3d3d3;}
  
    
     div[class="information-box section"] {
-    color: #1F2023!important;
+    color: #ffffff!important;
 }
 
 
@@ -411,8 +434,8 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
     }
 
     
-     .information-box{background:#007bff;}
-  a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;} 
+     .information-box{background:#0857A6; color:#ffffff;}
+  a#ContentPlaceHolder1_hlPendingForms{color:#ffffff!important;} 
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/owner_forms_edit.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/order_elements.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_processors.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_reviewers.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/eform_statistics.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_processors_edit.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_reviewers_edit.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements_edit.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements_calc.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/element_list.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/element_list_edit.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_reviewers_order.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_users.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_columns.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_groups.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements_conditional.aspx"),url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements_adv.aspx"){
@@ -425,26 +448,26 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 #cssmenu-form li:hover a {
   display: block;
   background:unset;
-  border: 1px solid #007bff;
+  border: 1px solid #0857A6;
   text-decoration: none;
-  color: #333333;
+  color: #ffffff;
     }
 
 /* Style the active list item */
 #cssmenu-form li.active a span {
-    background-color: #007bff; /* Background color for active item */
+    background-color: #0857A6; /* Background color for active item */
     color: #ffffff; /* Text color for active item */
     padding: 10px 15px; /* Add padding */
     display: block; /* Ensure padding affects the whole block */
     border-radius: 5px; /* Optional: Round corners */
-    border: 1px solid #007bff;
+    border: 1px solid #0857A6;
     font-weight: bold; /* Optional: Make text bold */
 }
 
 /* Style all other list items */
 #cssmenu-form li a span {
-    background-color: #0b77e2; /* Background color for inactive items */
-    color: #333333; /* Text color for inactive items */
+    background-color: #0857A6; /* Background color for inactive items */
+    color: #ffffff; /* Text color for inactive items */
     padding: 10px 15px; /* Add padding */
     display: block; /* Ensure padding affects the whole block */
     border-radius: 5px; /* Optional: Round corners */
@@ -465,26 +488,26 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 #cssmenu-form2 li:hover a {
   display: block;
   background:unset;
-  border: 1px solid #007bff;
+  border: 1px solid #0857A6;
   text-decoration: none;
-  color: #333333;
+  color: #ffffff;
     }
 
 /* Style the active list item */
 #cssmenu-form2 li.active a span {
-    background-color: #007bff; /* Background color for active item */
+    background-color: #0857A6; /* Background color for active item */
     color: #ffffff; /* Text color for active item */
     padding: 10px 15px; /* Add padding */
     display: block; /* Ensure padding affects the whole block */
     border-radius: 5px; /* Optional: Round corners */
-    border: 1px solid #007bff;
+    border: 1px solid #0857A6;
     font-weight: bold; /* Optional: Make text bold */
 }
 
 /* Style all other list items */
 #cssmenu-form2 li a span {
-    background-color: #0b77e2; /* Background color for inactive items */
-    color: #333333; /* Text color for inactive items */
+    background-color: #0857A6; /* Background color for inactive items */
+    color: #ffffff; /* Text color for inactive items */
     padding: 10px 15px; /* Add padding */
     display: block; /* Ensure padding affects the whole block */
     border-radius: 5px; /* Optional: Round corners */
@@ -504,7 +527,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 .button-cancel{background-color: #1F2023;}
 .button-cancel:hover{background:#333!important;}
 
-.information-box{background:#007bff;}
+.information-box{background:#0857A6; color:#ffffff;}
 /*a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;}*/
 
     
@@ -513,7 +536,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/reviewers_summary.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/processors_summary.aspx"){
     
-    .information-box{background:#007bff;}
+    .information-box{background:#0857A6; color:#ffffff;}
    /* a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;}*/
 }
 
@@ -527,12 +550,12 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 #ContentPlaceHolder1_cmdUndoChanges:hover{color:#6c6d6c!important;}
 #ContentPlaceHolder1_cmdClose1:hover{color:#ff8000!important;}
 #ContentPlaceHolder1_cmdClose:hover{color:#ff8000!important;}
-#ContentPlaceHolder1_cmdPublish1:hover{color:#007bff!important}
+#ContentPlaceHolder1_cmdPublish1:hover{color:#007bff!important;}
 
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_processors.aspx"),url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_elements.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/order_elements.aspx"), url-prefix("https://web3.cincinnatistate.edu/eforms/admin/form_reviewers.aspx"){
     
-    .information-box{background:#007bff;}
+    .information-box{background:#0857A6; color:#ffffff;}
     
 }
