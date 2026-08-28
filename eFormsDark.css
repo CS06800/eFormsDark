@@ -154,7 +154,8 @@
 
 .yellow-box,
 .section-none {
-    color: #d3d3d3;
+    color: #1F2023;
+    background-color: #FF0;
 }
 
 /*
@@ -390,6 +391,7 @@ body{color:#d3d3d3;}
 .yellow-box,
 .section-none {
     color: #1F2023;
+    background-color: #FF0;
 }
     
     .information-box {
