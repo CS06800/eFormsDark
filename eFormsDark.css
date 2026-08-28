@@ -321,7 +321,7 @@ body a:focus-visible {
     
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms_edit\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms_edit\\.aspx.*") {
 input, textarea, select {
   background: #e4e4e4 !important;
   color: #1F2023;
@@ -346,7 +346,7 @@ input, textarea, select {
 }
 
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_search\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_search\\.aspx.*") {
 B, i {
   color: #d3d3d3;
 }
@@ -363,7 +363,7 @@ input, textarea, select {
 /* a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;} */
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/eform_statistics\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/eform_statistics\\.aspx.*") {
 .module .header{background-color: #52575c !important;}
 .module .header{color:#d3d3d3;}
 div[class="fake-textbox"]{color:#222!important;}
@@ -373,7 +373,7 @@ div[class="fake-textbox"]{color:#222!important;}
 .collapsible-content{background-color:#444!important;}
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/submitted_forms3"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/view_form\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/submitted_forms\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/submitted_forms3"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/view_form\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/submitted_forms\\.aspx.*") {
 B ,i{color: #d3d3d3;}/*comments in process o review comments */
 body, select, input, button, textarea{color: #d3d3d3;}
 div[class="section-none"]{color: #d3d3d3!important;}
@@ -385,16 +385,16 @@ div[class="section-none"]{color: #d3d3d3!important;}
 }
 
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/copy_form\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/copy_form\\.aspx.*") {
 div[class="item"]{color: #d3d3d3!important;}
 div[class="item"] div{margin-bottom:.5em;}
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_form_reassign\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_form_reassign\\.aspx.*") {
 body{color:#d3d3d3;}
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_form_reassign\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/order_elements\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/eform\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/eform_validate\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/confirm\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/no_auth\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_form_reassign\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/order_elements\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/eform\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/eform_validate\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/confirm\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/no_auth\\.aspx.*") {
 .yellow-box {
     color: #1F2023;
     background-color: #FF0;
@@ -412,7 +412,7 @@ body{color:#d3d3d3;}
     
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/admin_alias_login\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/admin_alias_login\\.aspx.*") {
 #module2{margin-bottom:1em;}
 
     option[value]{background:#424242}
@@ -422,23 +422,23 @@ body{color:#d3d3d3;}
 .button-action:hover{color:#0f0;}
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/publish\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/publish\\.aspx.*") {
 .color{color:Yellow;}
 .button-action:hover{color:red;}
 }
 
-@-moz-document url("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/data_retention\\.aspx*") {
+@-moz-document url("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/data_retention\\.aspx.*") {
 .ColumnHeader:hover{background:#222!important;}
 }
 
-@-moz-document url("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_adv\\.aspx*") {
+@-moz-document url("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_adv\\.aspx.*") {
 .ColumnHeader:hover{background:#222!important;}
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/confirm\\.aspx*") {
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/confirm\\.aspx.*") {
 #eform-form{color:#d3d3d3!important;}
 }
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/default\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/default\\.aspx.*"){
  
    
     div[class="information-box section"] {
@@ -473,7 +473,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
   a#ContentPlaceHolder1_hlPendingForms{color:#ffffff!important;} 
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms_edit\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/order_elements\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/eform_statistics\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors_edit\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers_edit\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_edit\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_calc\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/element_list\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/element_list_edit\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers_order\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_users\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_columns\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_groups\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_conditional\\.aspx*"),regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_adv\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms_edit\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/order_elements\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/eform_statistics\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors_edit\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers_edit\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_edit\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_calc\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/element_list\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/element_list_edit\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers_order\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_users\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_columns\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_groups\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_conditional\\.aspx.*"),regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements_adv\\.aspx.*"){
 	
 
 #cssmenu-form li.active a{background:unset;
@@ -556,7 +556,7 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
     
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms\\.aspx.*"){
 	
     
 .button-cancel{background-color: #1F2023;}
@@ -569,14 +569,14 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 }
 
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers_summary\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/processors_summary\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers_summary\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/processors_summary\\.aspx.*"){
     
    /* .information-box{background:#0857A6; color:#ffffff;} */
    /* a#ContentPlaceHolder1_hlPendingForms{color:#1F2023!important;}*/
 }
 
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms_edit\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/owner_forms_edit\\.aspx.*"){
     
     
 #ContentPlaceHolder1_cmdSubmit1:hover{color:#0f0!important;}
@@ -589,14 +589,14 @@ a#ContentPlaceHolder1_hlToggleFavorites, a#ContentPlaceHolder1_lbEditFavorites {
 
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors\\.aspx*"),regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/order_elements\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_processors\\.aspx.*"),regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_elements\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/order_elements\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_reviewers\\.aspx.*"){
     
   /*  .information-box{background:#0857A6; color:#ffffff;} */
     
 }
 
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/processors_summary\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers_summary\\.aspx*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_search\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/processors_summary\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers_summary\\.aspx.*"), regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/form_search\\.aspx.*"){
     
     
 div[class="none-found section information-box"] {
@@ -606,6 +606,6 @@ div[class="none-found section information-box"] {
 
 }
 
-@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers\\.aspx*"){
+@-moz-document regexp("https://web3\\.cincinnatistate\\.edu/[eE][fF][oO][rR][mM][sS]/admin/reviewers\\.aspx.*"){
     .module-red .image_and_content_box{background-color:#fafa00;}
 }
