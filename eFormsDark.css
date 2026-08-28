@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           eForms Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.1
+@version        1.1.2
 @description    A new userstyle
 @author         Carmine
 ==/UserStyle== */
@@ -288,6 +288,30 @@ div[class="fake-textbox"]{color:#222!important;}
     .cstate-green {
 	color: #19df19 !important;
 }
+body a.button-cancel.button-cancel:focus,
+body a.button-cancel.button-cancel:focus-visible {
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.8) !important;
+    border-radius: 4px !important;
+}
+    
+    #cssmenu > ul > li > a {
+  color: #209cdd !important;
+  color: #77a8f9 !important;
+}
+    
+    #cssmenu > ul > li > a:focus,
+    #cssmenu > ul > li > a:focus-visible {
+    background-color: transparent !important;
+    /* If there is a text color change on focus you want to stop, add it here */
+}
+    
+body a:focus,
+body a:focus-visible {
+    background-color: transparent !important;
+}
+    
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eForms/admin/owner_forms_edit.aspx") {
@@ -367,6 +391,16 @@ body{color:#d3d3d3;}
 .section-none {
     color: #1F2023;
 }
+    
+    .information-box {
+color: #ffffff;
+	background-color: #0857A6;
+}
+    
+    #required {
+	background-color: #0857A6;
+}
+    
 }
 
 @-moz-document url-prefix("https://web3.cincinnatistate.edu/eForms/admin/admin_alias_login.aspx") {
